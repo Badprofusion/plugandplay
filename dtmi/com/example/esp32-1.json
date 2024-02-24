@@ -1,6 +1,6 @@
 {
     "@context": "dtmi:dtdl:context;2",
-    "@id": "dtmi:azureiot:devkit:freertos:Esp32;1",
+    "@id": "dtmi:com:example:Esp32;1",
     "@type": "Interface",
     "displayName": {
         "en": "Espressif ESP32 Bancada Horta"
