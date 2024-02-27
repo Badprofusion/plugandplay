@@ -15,23 +15,6 @@
       "name": "ToggleLed1"
     },
     {
-      "@type": "Command",
-      "commandType": "synchronous",
-      "displayName": {
-        "en": "Display Text"
-      },
-      "name": "DisplayText",
-      "request": {
-        "@type": "CommandPayload",
-        "comment": "Text to be printed on the OLED display",
-        "displayName": {
-          "en": "Content"
-        },
-        "name": "content",
-        "schema": "string"
-      }
-    },
-    {
       "@type": [
         "Telemetry",
         "RelativeHumidity"
@@ -45,7 +28,7 @@
     },
     {
       "@type": "Component",
-      "schema": "dtmi:azure:example:DeviceInformation;1",
+      "schema": "dtmi:com:example:DeviceInformation;1",
       "name": "deviceInformation",
       "displayName": "Device Information interface",
       "description": "Optional interface with basic device hardware information."
