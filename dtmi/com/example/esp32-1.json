@@ -27,6 +27,15 @@
       "schema": "double"
     },
     {
+      "@type": "Property",
+      "displayName": {
+        "en": "Telemetry Frequency in Seconds"
+      },
+      "name": "telemetryFrequencySecs",
+      "schema": "integer",
+      "writable": true
+    },
+    {
       "@type": "Component",
       "schema": "dtmi:com:example:DeviceInformation;1",
       "name": "deviceInformation",
