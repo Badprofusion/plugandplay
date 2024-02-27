@@ -15,6 +15,14 @@
       "name": "ToggleLed1"
     },
     {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle RELE 1"
+      },
+      "name": "ToggleRele1"
+    },	  
+    {
       "@type": [
         "Telemetry",
         "RelativeHumidity"
