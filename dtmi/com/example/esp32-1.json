@@ -57,6 +57,13 @@
       "name": "deviceInformation",
       "displayName": "Device Information interface",
       "description": "Optional interface with basic device hardware information."
-    }
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:example:deviceUpdateContractModel;2",
+      "name": "deviceInformation",
+      "displayName": "DevDevice Update Base Model version 2",
+      "description": "Device Update Base Model version 2 --- ."
+    }    
   ]
 }    
