@@ -21,6 +21,14 @@
         "en": "Toggle RELE 1"
       },
       "name": "ToggleRele1"
+    },
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle WS2812"
+      },
+      "name": "ToggleWS28121"
     },	  
     {
       "@type": [
