@@ -8,7 +8,7 @@
     {
       "@type": "Component",
       "schema": "dtmi:azure:iot:deviceUpdate;1",
-      "name": "BitAI Device Update",
+      "name": "deviceUpdate",
       "displayName": "Device Update Interface version 1"
     }
   ]
