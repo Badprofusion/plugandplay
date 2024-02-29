@@ -8,13 +8,13 @@
     {
       "@type": "Component",
       "schema": "dtmi:azure:iot:deviceUpdate;1",
-      "name": "deviceUpdate",
+      "name": "BitAI Device Update",
       "displayName": "Device Update Interface version 1"
     },
     {
       "@type": "Component",
-      "schema": "dtmi:com:zure:iot:Esp32;1",
-      "name": "BitAI",
+      "schema": "dtmi:azure:iot:Esp32;1",
+      "name": "BitAI Plug and Play",
       "displayName": "BitAI Interface version 1"
     }    
   ]
