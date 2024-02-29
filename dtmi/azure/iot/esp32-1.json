@@ -42,6 +42,18 @@
 			"unit": "percent",
       "schema": "double"
     },
+        {
+      "@type": [
+        "Temperature",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Temperature"
+      },
+      "name": "temperature",
+      "unit": "percent",
+      "schema": "double"
+    },
     {
       "@type": "Property",
       "displayName": {
