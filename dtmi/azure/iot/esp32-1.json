@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:zureiot:Esp32;1",
+  "@id": "dtmi:azure:iot:Esp32;1",
   "@type": "Interface",
   "displayName": {
     "en": "Espressif ESP32 Azure IoT Kit"
@@ -53,17 +53,10 @@
     },
     {
       "@type": "Component",
-      "schema": "dtmi:com:zureiot:DeviceInformation;1",
+      "schema": "dtmi:azure:iot:DeviceInformation;1",
       "name": "deviceInformation",
       "displayName": "Device Information interface",
       "description": "Optional interface with basic device hardware information."
-    },
-    {
-      "@type": "Component",
-      "schema": "dtmi:com:zureiot:deviceUpdate;1",
-      "name": "deviceUpdate",
-      "displayName": "DevDevice Update Base Model version 2",
-      "description": "Device Update Base Model version 2 --- ."
-    }    
+    }
   ]
 }    
