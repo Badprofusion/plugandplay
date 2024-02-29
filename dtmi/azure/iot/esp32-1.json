@@ -69,6 +69,13 @@
       "name": "deviceInformation",
       "displayName": "Device Information interface",
       "description": "Optional interface with basic device hardware information."
-    }
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:azure:iot:DeviceInformation;1",
+      "name": "deviceInformation",
+      "displayName": "Device Information interface",
+      "description": "Optional interface with basic device hardware information."
+    }	  
   ]
 }    
