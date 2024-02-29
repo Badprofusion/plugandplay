@@ -71,7 +71,7 @@
       "description": "Optional interface with basic device hardware information."
     },
     {
-      "@type": "Interface",
+      "@type": "Component",
       "schema": "dtmi:azure:iot:deviceUpdateContractModel;2",
       "name": "deviceUpdateContractModel",
       "displayName": "Device Update Base Model version 2",
