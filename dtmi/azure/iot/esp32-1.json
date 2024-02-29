@@ -72,10 +72,9 @@
     },
     {
       "@type": "Component",
-      "schema": "dtmi:azure:iot:deviceUpdateContractModel;2",
-      "name": "deviceUpdateContractModel",
-      "displayName": "Device Update Base Model version 2",
-      "description": "Device Update Base Model version 2 supports device update interface version 1 and update manifest version 5."
+      "schema": "dtmi:azure:iot:deviceUpdate;1",
+      "name": "BitAI Device Update",
+      "displayName": "Device Update Interface version 1"
      }	  
   ]
 }    
