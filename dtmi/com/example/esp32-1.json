@@ -61,7 +61,7 @@
     {
       "@type": "Component",
       "schema": "dtmi:com:example:deviceUpdate;1",
-      "name": "deviceUpdateContractModel",
+      "name": "deviceUpdate",
       "displayName": "DevDevice Update Base Model version 2",
       "description": "Device Update Base Model version 2 --- ."
     }    
