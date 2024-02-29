@@ -1,0 +1,69 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:zureiot:Esp32;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Espressif ESP32 Azure IoT Kit"
+  },
+  "contents": [
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle LED 1"
+      },
+      "name": "ToggleLed1"
+    },
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle RELE 1"
+      },
+      "name": "ToggleRele1"
+    },
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle WS2812"
+      },
+      "name": "ToggleWS28121"
+    },	  
+    {
+      "@type": [
+        "Telemetry",
+        "RelativeHumidity"
+      ],
+      "displayName": {
+        "en": "Humidity"
+      },
+      "name": "humidity",
+			"unit": "percent",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Telemetry Frequency in Seconds"
+      },
+      "name": "telemetryFrequencySecs",
+      "schema": "integer",
+      "writable": true
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:zureiot:DeviceInformation;1",
+      "name": "deviceInformation",
+      "displayName": "Device Information interface",
+      "description": "Optional interface with basic device hardware information."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:com:zureiot:deviceUpdate;1",
+      "name": "deviceUpdate",
+      "displayName": "DevDevice Update Base Model version 2",
+      "description": "Device Update Base Model version 2 --- ."
+    }    
+  ]
+}    
