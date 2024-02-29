@@ -72,11 +72,10 @@
     },
     {
       "@type": "Interface",
-      "schema": "dtmi:azure:iot:deviceUpdateModel;2",
-      "name": "deviceUpdateModel",
-      "displayName": "Device Update Model version 2",
-      "description": "Device Update Model version 2 supports device update contract model version 2, device information interface version 1 and diagnostic interface version 1",
-      "extends": "dtmi:azure:iot:deviceUpdateContractModel;2",
+      "schema": "dtmi:azure:iot:deviceUpdateContractModel;2",
+      "name": "deviceUpdateContractModel",
+      "displayName": "Device Update Base Model version 2",
+      "description": "Device Update Base Model version 2 supports device update interface version 1 and update manifest version 5."
      }	  
   ]
 }    
