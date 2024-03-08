@@ -10,6 +10,19 @@
       "schema": "dtmi:azure:iot:deviceUpdate;1",
       "name": "deviceUpdate",
       "displayName": "Device Update Interface version 1"
-    }
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:azure:iot:DeviceInformation;1",
+      "name": "deviceInformation",
+      "displayName": "Device Information interface",
+      "description": "Optional interface with basic device hardware information."
+    },
+    {
+      "@type": "Component",
+      "schema": "dtmi:azure:iot:Esp32;1",
+      "name": "Esp32",
+      "displayName": "Esp32"
+     }  
   ]
 }
