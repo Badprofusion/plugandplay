@@ -19,12 +19,6 @@
       "description": "Optional interface with basic device hardware information."
     },
     {
-      "@type": "Component",
-      "schema": "dtmi:azure:iot:Esp32;1",
-      "name": "Esp32",
-      "displayName": "Esp32"
-     },
-    {
       "@type": "Command",
       "commandType": "synchronous",
       "displayName": {
