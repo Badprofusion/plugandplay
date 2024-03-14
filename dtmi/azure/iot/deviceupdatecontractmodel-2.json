@@ -23,6 +23,63 @@
       "schema": "dtmi:azure:iot:Esp32;1",
       "name": "Esp32",
       "displayName": "Esp32"
-     }  
+     },
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle LED 1"
+      },
+      "name": "ToggleLed1"
+    },
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle RELE 1"
+      },
+      "name": "ToggleRele1"
+    },
+    {
+      "@type": "Command",
+      "commandType": "synchronous",
+      "displayName": {
+        "en": "Toggle WS2812"
+      },
+      "name": "ToggleWS28121"
+    },    
+    {
+      "@type": [
+        "Telemetry",
+        "RelativeHumidity"
+      ],
+      "displayName": {
+        "en": "Humidity"
+      },
+      "name": "humidity",
+      "unit": "percent",
+      "schema": "double"
+    },
+        {
+      "@type": [
+        "Temperature",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Temperature"
+      },
+      "name": "temperature",
+      "unit": "percent",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Telemetry Frequency in Seconds"
+      },
+      "name": "telemetryFrequencySecs",
+      "schema": "integer",
+      "writable": true
+    }
   ]
 }
