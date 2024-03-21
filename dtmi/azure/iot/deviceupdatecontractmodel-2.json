@@ -74,6 +74,15 @@
       "name": "telemetryFrequencySecs",
       "schema": "integer",
       "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "SleepMode"
+      },
+      "name": "sleepmode",
+      "schema": "integer",
+      "writable": true
     }
   ]
 }
