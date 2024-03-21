@@ -84,5 +84,15 @@
       "schema": "integer",
       "writable": true
     }
+    ,
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "SleepMode interval in Seconds"
+      },
+      "name": "sleepmodeinterval",
+      "schema": "integer",
+      "writable": true
+    }
   ]
 }
