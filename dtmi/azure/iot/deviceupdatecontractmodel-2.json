@@ -83,6 +83,15 @@
       "name": "sleepmode",
       "schema": "integer",
       "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Rele1"
+      },
+      "name": "rele1",
+      "schema": "integer",
+      "writable": true
     }
     ,
     {
