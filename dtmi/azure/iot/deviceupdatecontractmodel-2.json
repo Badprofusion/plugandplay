@@ -97,7 +97,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "SleepMode interval in miliSeconds - Ex: 10 sec = 10000000"
+        "en": "SleepMode interval in Seconds"
       },
       "name": "sleepmodeinterval",
       "schema": "integer",
